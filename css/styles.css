@@ -13,3 +13,40 @@ body {
     max-width: 1200px;
     margin: 0 auto;
 }
+.main_header {
+    background: url(../uploads/header-bg.jpg);
+    background-size: cover;
+    height: 800px;
+}
+.header_menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.nav_section {
+    display: flex;
+    list-style: none;
+}
+.logo {
+    margin: 25px 75px;
+}
+.nav_item {
+    margin-right: 85px;
+    margin-top: -63px;
+}
+.nav_item:last-child {
+    margin-right: 0;
+}
+a.nav_link {
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+.nav_link:hover {
+    color: #E8C300;
+}
