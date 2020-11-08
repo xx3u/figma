@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Banny';
+    src: url('Banny-Round.eot');
+    src: url('Banny-Round.eot?#iefix') format('embedded-opentype'),
+        url('Banny-Round.woff2') format('woff2'),
+        url('Banny-Round.woff') format('woff'),
+        url('Banny-Round.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

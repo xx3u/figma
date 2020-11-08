@@ -17,12 +17,13 @@ body {
     background: url(../uploads/header-bg.jpg);
     background-size: cover;
     height: 800px;
+    color: #ffffff;
+    text-transform: uppercase;
 }
 .header_menu {
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 .nav_section {
     display: flex;
@@ -44,9 +45,69 @@ a.nav_link {
     line-height: 18px;
     text-align: center;
     text-decoration: none;
-    color: #ffffff;
     text-transform: uppercase;
+    color: #ffffff;
 }
 .nav_link:hover {
     color: #E8C300;
+}
+.header_title {
+    margin: 125px 0 5px;
+    text-align: center;
+    position: relative;
+}
+.small_title {
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.5em;
+    padding: 7px 0 0 0;
+}
+.main_title {
+    font-family: 'Banny';
+    font-size: 96px;
+    text-transform: uppercase;
+    background: url(../img/header_separator.svg) 49% 100% no-repeat;
+    padding-bottom: 15px;
+}
+.header_buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header_btn {
+    padding: 20px 50px;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 30px 52px 30px 0;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 5px;
+}
+.header_btn:hover {
+    background: #E8C300;
+}
+.social_buttons {
+    position: absolute;
+    top: 7px;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.social_btn {
+    padding-bottom: 14px;
+}
+.scroll_button {
+    position: relative;
+}
+.down_btn {
+    position: absolute;
+    margin: 45px 0;
+    left: calc(50% - 50px);
+    
 }
