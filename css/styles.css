@@ -10,7 +10,7 @@ body {
     color: #000000;
 }
 .container {
-    max-width: 1200px;
+    max-width: 1270px;
     margin: 0 auto;
 }
 .main_header {
@@ -108,6 +108,55 @@ a.nav_link {
 .down_btn {
     position: absolute;
     margin: 45px 0;
-    left: calc(50% - 50px);
-    
+    left: calc(50% - 50px);  
+}
+.about_us {
+    padding: 100px 0;
+}
+.aboutus {
+    display: flex;
+    justify-content: space-evenly;
+}
+.about_us_text {
+    flex: 50%;
+    padding: 117px 57px 0 0;
+}
+.section_title {
+    font-family: 'Banny';
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    text-transform: uppercase;
+    background: url(../img/header_separator.svg) 55% 100% no-repeat;
+    padding: 0 0 13px 52px;
+}
+.section_bold_text {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    padding: 13px 0 18px;
+}
+.section_small_text {
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+}
+.about_us_image {
+    flex: 50%;
+    position: relative;
+    width: 475px;
+    height: 475px;
+    padding-left: 33px;
+    filter: drop-shadow(0px 0px 50px rgba(0, 0, 0, 0.5));
+    border-radius: 5px;
+}
+.square {
+    position: absolute;
+    height: 250px;
+    width: 250px;
+    top: 24%;
+    right: 0;
+    border: 20px solid #E8C300;
+    border-radius: 5px;
 }
