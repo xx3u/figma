@@ -6,7 +6,7 @@
 body {
     margin: 0;
     font-family: 'Open Sans', sans-serif;
-    background: #E5E5E5;
+    background: #ffffff;
     color: #000000;
 }
 .container {
@@ -188,4 +188,59 @@ a.nav_link {
 }
 .section_bold_text.team {
     padding: 13px 0px 18px 0px;
+}
+.book {
+    display: flex;
+    padding: 99px 0;
+}
+.section_text.booking {
+    padding: 60px 28px 55px 41px;
+}
+.section_title.booking {
+    background: url(../img/header_separator.svg) 50% 100% no-repeat;
+    padding: 0px 0 13px 0px;
+}
+.booking_form {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 22px 0;
+}
+.form_field {
+    flex: 50%;
+    padding: 0 7px 11px 5px;
+}
+.form_field input, .form_field select {
+    width: 99%;
+    padding: 20px 0;
+    border: 1px solid #E5E5E5;
+    background: #E5E5E5;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    color: rgba(51, 51, 51, 0.5);
+    font-size: 14px;
+    line-height: 19px;
+    text-indent: 20px;
+}
+.form_field.book_btn {
+    flex: 100%;
+}
+#book_btn {
+    width: 100%;
+    background: #E8C300;
+    border-radius: 5px;
+    font-size: 12px;
+    line-height: 20px;
+    color: #FFFFFF;
+    padding: 16px;
+    border: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.section_image.booking {
+    padding-left: 44px;
+}
+.square.booking {
+    height: 226px;
+    width: 226px;
+    top: 26%;
 }
