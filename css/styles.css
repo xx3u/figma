@@ -125,6 +125,7 @@ a.nav_link {
 .section_text {
     flex: 50%;
     padding: 117px 57px 0 0;
+    overflow: hidden;
 }
 .section_title {
     font-family: 'Banny';
@@ -390,4 +391,62 @@ textarea {
     margin-top: -60px;
     position: absolute;
     left: 47%;
+}
+@media only screen and (min-width: 360px) and (max-width: 1024px) {
+    .section_image {
+        display: none;
+    }
+    .owl-carousel, .owl-carousel .owl-item .section_image {
+        display: none;
+    }
+    .section_text {
+        flex: 100%;
+        padding: 10px;
+    }
+    .owl-carousel, .owl-carousel .owl-item .section_title {
+        text-align: center;
+        padding: 10px;
+    }
+    .contact_form {
+        padding: 10px;
+    }
+}
+@media screen and (max-width: 900px) {
+    .main_header {
+        height: 600px;
+    }
+    .header_title {
+        margin-top: 0;
+    }
+    .main_title {
+        font-size: 80px;
+    }
+    .nav_section {
+        flex-wrap: wrap;
+    }
+    .logo, .nav_item {
+        margin: 10px;
+    }
+    .our_team {
+        height: 500px;
+    }
+    .section_text.team {
+        padding: 10px;
+    }
+    .book {
+        padding: 10px;
+    }
+    .owl-carousel, .owl-carousel .owl-item {
+        height: 500px;
+    }
+    .owl-carousel, .owl-carousel .owl-item .section_text, .section_title {
+        padding: 10px;
+    }
+    .section_bold_text.contact {
+        width: 100%;
+    }
+    .contact_info {
+        flex: 100%;
+        flex-wrap: wrap;
+    }
 }
